@@ -16,7 +16,6 @@ function draw(){
     strokeWeight(2);
     fill(150, 40, 40);
 
-
 // 1st building
 
     push();
@@ -51,14 +50,14 @@ function draw(){
 
     // 5 building
 
-      push();
+    push();
     translate (200, 600)
     rect(0, 0, 40, 900)
     pop()
 
     // 6 building
 
-     push();
+    push();
     translate (150, 500)
     rect(0, 0, 80, 800)
     pop()
@@ -69,8 +68,8 @@ push();
     rect(0, 0, 100, 300)
     pop()
 
-   // stars
-    // nested loops + translate
+   //stars
+    //nested loops and then translate
 
     for (let x = 0; x < width; x += 50) {
 
@@ -78,9 +77,8 @@ push();
 
             push();
 
-            // move each star to a new position
-            translate(x + random(10, 100), y + random(-10, 110));
-
+            //move each star to a new position
+            translate(x + random(10, 100), y + random(0, -10));
             fill(100);
             noStroke();
             ellipse(0, 0, 2, 2);
