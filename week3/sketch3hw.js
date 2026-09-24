@@ -26,7 +26,6 @@ spiralSize = lerp(spiralSize, 80, 0.1);
     }
 
     translate(lerpedMouseX, lerpedMouseY);
-    //create a spiral
     for (let i = 0; i < spiralSize; i++) {
 
         push();

@@ -1,6 +1,6 @@
 let x = 0;
-let lerpedMouseX = 0;
-let lerpedMouseY = 0;
+// let lerpedMouseX = 0;
+// let lerpedMouseY = 0;
 
 function setup(){
 
@@ -75,7 +75,7 @@ push();
         for (let y = 0; y < height ; y += 100) {
 
             push();
-            translate(x + random(10, 100), y + random(0, -10));
+            translate(x + random(100, 10), y + random(100, -10));
             fill(100);
             noStroke();
             ellipse(0, 0, 2, 2);
