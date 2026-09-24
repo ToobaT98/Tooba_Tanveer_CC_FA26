@@ -68,20 +68,17 @@ push();
     pop()
 
    //stars
-    //nested loops and then translate
+    // nested loops and then translate
 
     for (let x = 0; x < width; x += 50) {
 
         for (let y = 0; y < height ; y += 100) {
 
             push();
-
-            //move each star to a new position
             translate(x + random(10, 100), y + random(0, -10));
             fill(100);
             noStroke();
             ellipse(0, 0, 2, 2);
-
             pop();
         }
     }
