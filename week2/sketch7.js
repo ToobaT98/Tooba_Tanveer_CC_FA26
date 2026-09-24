@@ -10,8 +10,6 @@ function setup(){
 
 function draw() {
 background(255)
-
-
 fill (random(255), random(255), random (255))
 rect(width / 2, height / 2, size, size)
 

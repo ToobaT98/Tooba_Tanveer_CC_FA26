@@ -16,11 +16,9 @@ function setup() {
 function draw() {
     background(0);
 
-    // Smooth mouse movement
     lerpedMouseX = lerp(lerpedMouseX, mouseX, 0.1);
     lerpedMouseY = lerp(lerpedMouseY, mouseY, 0.1);
 
-    //grow the spiral when mouse is pressed
     if (mouseIsPressed) {
 spiralSize = lerp(spiralSize, 80, 0.1);
     } else {

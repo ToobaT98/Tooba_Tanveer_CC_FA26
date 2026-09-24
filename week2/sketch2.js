@@ -13,22 +13,21 @@ function draw(){
 stroke (random(255), random(255), random(255))
     line(pmouseX,pmouseY,mouseX,mouseY)
 
-
 }
 
-// function mouseDragged(){
+//function mouseDragged(){
 
-// // let w = mouseX
-// // let h = mouseY
+// let w = mouseX
+// let h = mouseY
         
-// // ellipse(mouseX,mouseY,w, h)
-// // random([10], [70])
-// // fill(random(150)) 
-// //    // background(100);
+// ellipse(mouseX,mouseY,w, h)
+// random([10], [70])
+//fill(random(150)) 
+//background(100);
 // }
 function mousePressed(){
-        //    background(100);
+        //  background(100);
 }
 // function keyPressed() {
-//              background(100);
+// background(100);
 // } 

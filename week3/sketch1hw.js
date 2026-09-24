@@ -11,7 +11,6 @@ function setup(){
 function draw(){
 
     background(0);
-
     stroke(255);
     strokeWeight(2);
     fill(150, 40, 40);
