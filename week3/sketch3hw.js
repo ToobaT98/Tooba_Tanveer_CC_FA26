@@ -3,7 +3,7 @@ let lerpedMouseX = 0;
 let lerpedMouseY = 0;
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+createCanvas(windowWidth, windowHeight);
 
     lerpedMouseX = mouseX;
     lerpedMouseY = mouseY;
@@ -14,10 +14,10 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+  background(0);
 
-    lerpedMouseX = lerp(lerpedMouseX, mouseX, 0.1);
-    lerpedMouseY = lerp(lerpedMouseY, mouseY, 0.1);
+lerpedMouseX = lerp(lerpedMouseX, mouseX, 0.1);
+  lerpedMouseY = lerp(lerpedMouseY, mouseY, 0.1);
 
     if (mouseIsPressed) {
 spiralSize = lerp(spiralSize, 80, 0.1);
