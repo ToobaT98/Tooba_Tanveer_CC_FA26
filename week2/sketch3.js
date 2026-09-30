@@ -1,6 +1,6 @@
 let x, y;
-let diameter = 100
-let yV = 55, xV = 25
+let diameter = 50
+let yV = 10, xV = 10
 
 function setup(){
     createCanvas(windowWidth,windowHeight)
@@ -12,7 +12,7 @@ function setup(){
 function draw(){
   background(100)
   ellipse(x,y, diameter);
-  fill(100, 100, 250, 150)
+  fill(100, 10, 250, 150)
 
   x += xV
   y += yV

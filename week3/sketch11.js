@@ -3,7 +3,7 @@ let r = 0
 let w, h;
 let numRects = 20; 
 
-
+// p5 disable friendly errors code
 
    
 function setup(){
@@ -11,15 +11,14 @@ function setup(){
     createCanvas(windowWidth,windowHeight)
 
     w = width/numRects
-
     h = height/numRects
 
     rectMode(CENTER)
     angleMode(DEGREES)
 
-    background(0)
-    fill(0)
-    strokeWeight(2)
+    background(50)
+    noFill
+ strokeWeight(2)
     stroke(255)
 
  
@@ -30,7 +29,9 @@ function setup(){
 
 function draw(){
 
-     background(0)
+     background(100)
+
+    // ADDdddd if (bdoexport svg code)
 
     //  translate(20,20)
 

@@ -1,10 +1,9 @@
 let x, y;
-let diameter = 200
+let diameter = 100
 let yV = 5, xV = 3
 
 function setup(){
     createCanvas(windowWidth,windowHeight)
-
     noStroke()
     y = diameter/2
     x = width/2
@@ -36,7 +35,7 @@ function draw(){
   if(x < diameter/2){
     xV = -xV
   }
-  print(y)
+ 
 
  
 }

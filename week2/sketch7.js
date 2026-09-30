@@ -1,6 +1,6 @@
 
-let size = 50
-let speed = 5
+let size = 20
+let speed = 1
 
 function setup(){
     createCanvas(windowWidth, windowHeight)
@@ -16,7 +16,7 @@ rect(width / 2, height / 2, size, size)
 size = size + speed
 
 if (size> max(width, height)) {
-  size = 50
+  size = 20
 }
 }
 

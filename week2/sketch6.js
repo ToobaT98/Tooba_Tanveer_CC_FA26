@@ -1,8 +1,8 @@
 let x = 0 
 let y = 0;
 
-let x2 = 400
-let y2 = 400
+let x2 = 200
+let y2 = 200
 
 let xSpeed = 3
 let ySpeed = 5
@@ -10,7 +10,7 @@ let ySpeed = 5
 let xSpeed2 = 3
 let ySpeed2 = 5
 
-let diameter = 100
+let diameter = 50
 
 let colour = 0
 let colour2 = 100
@@ -18,14 +18,12 @@ let colour2 = 100
 function setup(){
     createCanvas(windowWidth,windowHeight)
     // x=width
- 
 
 
 }
 function draw(){
   background(255,0,100)
 
-  // Ball 1
 
   ellipse(x,y,diameter)
 
@@ -33,7 +31,8 @@ function draw(){
   //  y=y+1
 
   x = x + xSpeed
-  y+= ySpeed
+  // y+= ySpeed
+  y = y + ySpeed
 
   fill(colour)
 
@@ -51,10 +50,12 @@ function draw(){
 
   if(y>height){
  ySpeed = -ySpeed
+   colour = random (0,255)
   }
 
   if (y<0) {
     ySpeed = -ySpeed
+       colour = random (0,255)
   }
 
 // Ball 2
@@ -82,10 +83,12 @@ function draw(){
 
   if(y2>height){
  ySpeed2 = -ySpeed2
+     colour2 = random (0,255)
   }
 
-  if (y<0) {
+  if (y2<0) {
     ySpeed2 = -ySpeed2
+        colour2 = random (0,255)
   }
  
  

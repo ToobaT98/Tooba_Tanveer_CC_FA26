@@ -26,6 +26,7 @@ function draw(){
     translate (700, 800)
     rect(0, 0, 100, 100)
     pop()
+    
 // 2nd building
 
  push();
@@ -33,7 +34,7 @@ function draw(){
     rect(0, 0, 100, 300)
     pop()
 
-//  /3 building
+//3 building
     
     push();
     translate (400, 600)
